@@ -306,6 +306,9 @@ svg path{
         top: -49px;
         transform: scaleX(-1) scale(1);
     }
+    .plants__items__item {
+        gap: 10px;
+    }
 }
 
 @media screen and (max-width:425px) {
@@ -319,6 +322,17 @@ svg path{
     }
     .banner__content {
         padding: 15px;
+    }
+    .main-title h1 {
+        font-size: 52px;
+    }
+
+    .main-title p {
+        font-size: 14px;
+    }
+    .main-title {
+        padding-bottom: 53px;
+        padding-top: 53px;
     }
 }
 
@@ -347,6 +361,9 @@ svg path{
     .banner {
         background: none;
         justify-content: center;
+    }
+    .header__buttons {
+        font-size: 11px;
     }
 }
 
